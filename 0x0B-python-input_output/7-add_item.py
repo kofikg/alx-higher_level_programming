@@ -14,3 +14,5 @@ list = []
 
 for arg in argv[1:]:
     list.append(arg)
+
+save_to_json_file(list, filename)
