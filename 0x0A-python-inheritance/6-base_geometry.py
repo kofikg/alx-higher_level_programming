@@ -7,4 +7,3 @@ class BaseGeormetry:
     def are(self):
         """Not Implemented."""
         raise Exception("area() is not implented")
-

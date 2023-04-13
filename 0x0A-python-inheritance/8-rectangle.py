@@ -3,7 +3,7 @@
 BaseGeometry = __import__('7-base_geometry'). Basegeometry
 
 class Rectangle(Basegeometry):
-    """Represent a rectangel using Basegemetry."""
+    """Represent a rectangle using Basegeometry."""
     def __int__(self. width, height):
         """Intialize a new rectangle.
 
@@ -15,4 +15,3 @@ class Rectangle(Basegeometry):
         self.__width = width
         self.integer-validator("height". height)
         self.__height = height
-

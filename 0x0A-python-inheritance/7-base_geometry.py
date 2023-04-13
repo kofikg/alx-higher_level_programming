@@ -7,7 +7,7 @@ class BaseGeometry:
     def area(self):
         """Not yet implemented."""
         raise Exception("area() is not implented")
-    
+
     def integer_validator(self, name, value):
         """validate a parameter as an integer.
 
@@ -26,4 +26,3 @@ class BaseGeometry:
                 raise TypeError("{} must be an integer".format(name))
             if value <= 0:
                 raise ValueError("{} must be greater than 0". format(name))
-
